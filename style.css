@@ -1,0 +1,251 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 25px;
+  background-image: url(IMG/wall.webp);
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+h2 {
+  margin-top: 12px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: medium;
+  margin-top: 23px;
+  margin-bottom: 25px;
+}
+
+h4 {
+  font-size: 20px;
+  /* margin-bottom: 5px; */
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+#encabezado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto 70px auto;
+  background-color: #f0f8ff94;
+}
+/* -------------SECCIONES------------- */
+.carrito {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lista-articulos,
+.detalleGastos,
+.resumenCompra {
+  background-color: #f0f8ffc4;
+  padding: 30px 15px;
+  min-width: 400px;
+}
+
+.titulo-seccion {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+
+/* -------------------CARDS-------------------------*/
+.articulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.detalleArticulo {
+  display: flex;
+  justify-content: space-between;
+}
+.articulo-descripcion {
+  /* margin-left: 10px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.articulo-descripcion__descripcion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+  /* margin-bottom: 15px; */
+}
+.articulo-descripcion__precioPorUnidad {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.articulo-descripcion__cantidadSeleccionada {
+  font-size: 14px;
+}
+.articulo-img {
+  object-fit: cover;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 110px;
+  max-height: 110px;
+  border: solid 2px black;
+}
+.articulo-controles {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px;
+}
+.articulo-controles button {
+  height: 30px;
+  width: 30px;
+  line-height: 20px;
+  font-size: 26px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  background-color: rgb(93, 93, 179);
+  margin: 5px;
+}
+/* --------------DETALLE-------------- */
+.detalleGastos-itemDetalle {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.detalleGastos-montoTotal {
+  font-size: 30px;
+  margin-top: 60px;
+  text-align: center;
+}
+.detalleCuotas li {
+  list-style: none;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.ingreso-cuotas {
+  margin-bottom: 40px;
+}
+.planes-cuotas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.btn {
+  font-weight: bold;
+  font-size: 16px;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 5px;
+}
+.btn-ahora-unselected {
+  background-color: rgb(150, 150, 224);
+  color: white;
+}
+.btn-ahora-selected {
+  background-color: rgb(21, 21, 134);
+  color: white;
+  border: solid 3px black;
+}
+.porcentajeInteres {
+  font-size: 10px;
+  text-align: center;
+}
+/* ---------FORM--------- */
+.formulario {
+  background-color: #f0f8ffc4;
+  width: 400px;
+  margin: 200px auto auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px 65px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+
+.form-item label {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#button-ingresar {
+  background-color: rgb(150, 150, 224);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  width: 85px;
+  height: 45px;
+  margin: 0 auto;
+}
+
+.inputs {
+  height: 25px;
+}
+
+/* ---------ENCABEZADO CARRITO--------- */
+.user-data {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.header-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 250px;
+}
+.header-fields__label {
+  padding: 10px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.header-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 250px;
+}
+.header-inputs__label {
+  padding: 10px;
+  text-align: left;
+}
+
+#botones-encabezado {
+  width: 400px;
+  display: flex;
+}
+.btn-encabezado {
+  font-weight: bold;
+  font-size: 16px;
+  width: 175px;
+  height: 45px;
+  margin: 0 auto 15px auto;
+}
+#button-cerrarsesion {
+  color: rgb(150, 150, 224);
+  background-color: rgb(255, 255, 255);
+}
+#button-finalizarcompra {
+  background-color: rgb(150, 150, 224);
+  color: white;
+}

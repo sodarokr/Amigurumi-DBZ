@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Piccolo",
+    "img": "IMG/picollo.jpg",
+    "costo": 500,
+    "porcentajeGanancia": 0.2
+  },
+  {
+    "nombre": "Goku",
+    "img": "IMG/goku.webp",
+    "costo": 900,
+    "porcentajeGanancia": 0.5
+  },
+  {
+    "nombre": "Vegeta",
+    "img": "IMG/vegeta.webp",
+    "costo": 800,
+    "porcentajeGanancia": 0.3
+  },
+  {
+    "nombre": "Gohan",
+    "img": "IMG/gohan.jpg",
+    "costo": 600,
+    "porcentajeGanancia": 0.4
+  },
+  {
+    "nombre": "Trunks",
+    "img": "IMG/trunks.jpg",
+    "costo": 1100,
+    "porcentajeGanancia": 0.1
+  }
+]
